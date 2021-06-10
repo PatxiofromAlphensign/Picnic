@@ -14,10 +14,10 @@ The library builds a static library.  The public API surface is defined in [picn
 
 Tested on Ubuntu Linux, and the Windows Subsystem for Linux on Windows 10 (build 1709).
 
-1. `make`  
+- `make`  
 This will build the project.  `make debug` will build with symbols.
 
-2. `./example`  
+- `./example`  
 Runs an example program that exercises the keygen, sign, verify and
 serialization APIs.  See [example.c](https://github.com/Microsoft/Picnic/blob/master/example.c).
 

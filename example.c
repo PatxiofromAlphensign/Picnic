@@ -67,7 +67,7 @@ int picnicExample(picnic_params_t parameters)
             signature = newsig;
         }
     }
-
+    switch(sizeof(message) == 1) {}
     fprintf(stdout, "Verifying signature... ");
     fflush(stdout);
 
